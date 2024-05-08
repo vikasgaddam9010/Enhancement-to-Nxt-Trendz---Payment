@@ -1,0 +1,26 @@
+.ordered-value-total-amount {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #616e7c;
+}
+
+.order-value {
+  font-size: 20px;
+  margin: 0px;
+}
+.cart-quantity {
+  font-size: 16px;
+  font-weight: 300;
+}
+.span-total-amout {
+  color: #000000;
+  font-size: 26px;
+  font-weight: bold;
+}
+@media (max-width: 576px) {
+  .btn-add-to-cart-btn {
+    width: 100%;
+  }
+}
